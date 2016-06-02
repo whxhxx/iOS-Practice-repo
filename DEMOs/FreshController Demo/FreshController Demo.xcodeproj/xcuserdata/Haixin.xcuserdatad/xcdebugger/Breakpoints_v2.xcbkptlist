@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FreshController Demo/LoadingTableViewCell.swift"
+            timestampString = "470786009.918123"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "LoadingTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FreshController_Demo.LoadingTableViewCell.loadingIndicator.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIActivityIndicatorView&gt;"
+                  moduleName = "FreshController Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Haixin/Documents/IOS/FreshController%20Demo/FreshController%20Demo/LoadingTableViewCell.swift"
+                  timestampString = "470787014.995537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FreshController_Demo.LoadingTableViewCell.loadingIndicator.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIActivityIndicatorView&gt;"
+                  moduleName = "FreshController Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Haixin/Documents/IOS/FreshController%20Demo/FreshController%20Demo/LoadingTableViewCell.swift"
+                  timestampString = "470787014.996029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FreshController_Demo.LoadingTableViewCell.loadingIndicator.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIActivityIndicatorView&gt;"
+                  moduleName = "FreshController Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Haixin/Documents/IOS/FreshController%20Demo/FreshController%20Demo/LoadingTableViewCell.swift"
+                  timestampString = "470787014.996361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FreshController_Demo.LoadingTableViewCell.init (FreshController_Demo.LoadingTableViewCell.Type)(style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; FreshController_Demo.LoadingTableViewCell"
+                  moduleName = "FreshController Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Haixin/Documents/IOS/FreshController%20Demo/FreshController%20Demo/LoadingTableViewCell.swift"
+                  timestampString = "470787014.996688"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FreshController_Demo.LoadingTableViewCell.init (FreshController_Demo.LoadingTableViewCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FreshController_Demo.LoadingTableViewCell&gt;"
+                  moduleName = "FreshController Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Haixin/Documents/IOS/FreshController%20Demo/FreshController%20Demo/LoadingTableViewCell.swift"
+                  timestampString = "470787014.997033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

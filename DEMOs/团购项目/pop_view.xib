@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="pop_view">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qxn-j9-UKm">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="400"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="URY-Tw-8dc"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="9qH-BG-Xg1"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ykh-qu-WCy">
+                    <rect key="frame" x="150" y="0.0" width="150" height="400"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="5If-iL-KzN"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="USj-wu-MbC"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ykh-qu-WCy" firstAttribute="leading" secondItem="Qxn-j9-UKm" secondAttribute="trailing" constant="8" id="Og7-Ui-bfH"/>
+                <constraint firstItem="Ykh-qu-WCy" firstAttribute="width" secondItem="Qxn-j9-UKm" secondAttribute="width" id="QZL-sf-tzy"/>
+                <constraint firstAttribute="bottom" secondItem="Qxn-j9-UKm" secondAttribute="bottom" id="Se9-2r-Fft"/>
+                <constraint firstItem="Qxn-j9-UKm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Y5V-jM-hxu"/>
+                <constraint firstItem="Ykh-qu-WCy" firstAttribute="leading" secondItem="Qxn-j9-UKm" secondAttribute="trailing" id="YhJ-km-x6a"/>
+                <constraint firstItem="Ykh-qu-WCy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="evi-4b-B3K"/>
+                <constraint firstAttribute="trailing" secondItem="Ykh-qu-WCy" secondAttribute="trailing" id="oEb-cI-ajQ"/>
+                <constraint firstAttribute="bottom" secondItem="Ykh-qu-WCy" secondAttribute="bottom" id="ocZ-Or-b9Y"/>
+                <constraint firstItem="Qxn-j9-UKm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rE3-qH-2yW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Og7-Ui-bfH"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="leftTV" destination="Qxn-j9-UKm" id="1wg-uu-TAf"/>
+                <outlet property="rightTV" destination="Ykh-qu-WCy" id="ECb-q5-qPw"/>
+            </connections>
+        </view>
+    </objects>
+</document>
